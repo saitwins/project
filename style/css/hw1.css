@@ -1,0 +1,130 @@
+body{
+	margin:10px;
+}
+
+h1{
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	margin-bottom:50px;
+	text-transform:uppercase;
+	font-family:serif;
+	font-style:bold;
+}
+h2{
+	color:#e52d27;
+	text-transform:uppercase;
+}
+
+
+
+section
+{
+    flex:3;
+	padding:20px;
+	 
+	
+}
+main{
+	display:flex;
+	
+}
+	
+nav a{
+	 
+    padding-left:40px;
+	padding-right:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+    margin-right:100px;
+	color:black;
+	opacity:0.8;
+	text-decoration:none;
+	border-radius:5px;;
+	
+}
+a:hover {
+	background:white;
+	opacity:1;
+}
+.active{
+	  background:white;
+	  opacity:1;
+}
+
+header{
+	background-image: url("../images/fly.jpg");
+	background-size:cover;
+	text-align:center;
+	height:200px;
+	
+	
+}
+aside{
+	background:#43c6ac;
+    flex:1;
+
+	
+}
+
+img
+{
+	width:70%;
+	margin:50px auto;
+	display:block;
+	border:solid black;
+}
+
+p{
+	font-size:20px;
+}
+table{
+	font-size:20px;
+	margin:0 auto;
+}
+th{
+	background:linear-gradient(#36d1dc,#5b86e5);
+	color:white;
+	border-bottom:3px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	border-radius:5px 5px 0px 0px;
+	font-family:Arial;
+	padding:10px;
+	font-size:15px;
+	
+}
+
+tr th:last-child{
+	  padding-left:25px;
+	  padding-right:25px;
+}	
+td{
+	background:#eb5757;
+	padding:10px;
+	text-align:center;
+	padding-left:25px;
+	padding-right:25px;
+	font-size:15px;
+	font-family:Arial;
+	color:white;
+	opacity:0.7;
+}
+tr td:first-child{
+	padding-left:10px;
+	padding-right:100px;
+    text-align:left;
+	
+}
+
+
+tr th:first-child{
+	text-align:left;
+	
+	}
+td:hover{
+	opacity:1;
+	background:white;
+	color:black;
+}	
